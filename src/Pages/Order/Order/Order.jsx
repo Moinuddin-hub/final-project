@@ -4,7 +4,7 @@ import OrderImg from '../../../assets/shop/banner2.jpg'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import useMenu from '../../../Hooks/useMenu';
-import FoodCard from '../../../Components/SectionTitle/FoodCard/FoodCard';
+// import FoodCard from '../../../Components/SectionTitle/FoodCard/FoodCard';
 import OrderTab from './OrderTab/OrderTab';
 import { useParams } from 'react-router-dom';
 const Order = () => {
