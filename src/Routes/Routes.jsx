@@ -23,6 +23,7 @@ import AdminHome from "../Pages/Dashboard/AdminHome/AdminHome";
       path: "/",
       element: <Main></Main>,
       children:[
+        
         {
             path:'/',
             element:<Home></Home>,
@@ -47,7 +48,7 @@ import AdminHome from "../Pages/Dashboard/AdminHome/AdminHome";
     },
     {
       path:'dashboard',
-      element:<Dashboard></Dashboard>,
+      element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
       children:[
         {
            path:'userHome',

@@ -6,6 +6,7 @@ import useAuth from "../../../Hooks/useAuth";
 import Swal from "sweetalert2";
 
 const CheckoutForm = () => {
+
     const {user}=useAuth();
     const[error,setError]=useState('');
     const [clientSecret,setClientSecret]=useState('');
